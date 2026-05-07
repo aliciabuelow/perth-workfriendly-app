@@ -1,14 +1,16 @@
+import '../styles/SpotCard.css';
+
 export default function SpotCard({ spot }) {
     return (
         <article className="spot-card">
             <header className="card-heading">
                 <div className="type-badge">{spot.type}</div>
-                <h2 className="card-name">{spot.name}</h2>
-                <div className="suburb">{spot.suburb}</div>
+                <h2 className="spot-name">{spot.name}</h2>
+                <div className="spot-suburb">{spot.suburb}</div>
             </header>
 
             <div className="card-body">
-                <p className="notes">{spot.notes}</p>
+                <p className="spot-notes">{spot.notes}</p>
 
                 <div className="spot-tags">
                     {spot.tags.map((item) => (
@@ -19,13 +21,15 @@ export default function SpotCard({ spot }) {
                 </div>
             </div>
 
+            <div className="line"></div>
+
             <footer className="card-footer">
-                <div className="address">{spot.address}</div>
+                <div className="spot-address">{spot.address}</div>
                 <a 
                  href={spot.website} 
                  target="_blank" 
                  rel="noopener noreferrer" 
-                 className="website-link"
+                 className="spot-link"
                  >
                     Visit Website
                 </a>

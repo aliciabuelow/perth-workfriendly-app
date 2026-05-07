@@ -1,7 +1,7 @@
 export const spots = [
     {
         id: 1,
-        name: "State Library of Western Australia",
+        name: "State Library of WA",
         suburb: "Perth",
         type: "Library",
         address: "25 Francis St, Perth WA 6000",
