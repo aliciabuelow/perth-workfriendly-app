@@ -4,6 +4,7 @@ import { spots } from './data/spots.js';
 import SpotList from './components/SpotList';
 import SearchBar from './components/SearchBar';
 import EmptyState from './components/EmptyState';
+import Hero from './components/Hero';
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -24,7 +25,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Perth Work-Friendly</h1>
+      <Hero />
+
       <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
 
       {filteredSpots.length > 0 ? <SpotList spots={filteredSpots} /> : <EmptyState />}
