@@ -1,4 +1,5 @@
 import SpotCard from './SpotCard';
+import '../styles/SpotList.css';
 
 export default function SpotList({ spots }) {
     return (

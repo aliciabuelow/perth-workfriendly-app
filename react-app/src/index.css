@@ -2,3 +2,7 @@ body {
     background-color: #090909;
     font-family: 'Inter', sans-serif;
 }
+
+* {
+    box-sizing: border-box;
+}
