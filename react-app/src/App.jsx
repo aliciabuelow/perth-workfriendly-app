@@ -5,6 +5,7 @@ import SpotList from './components/SpotList';
 import SearchBar from './components/SearchBar';
 import EmptyState from './components/EmptyState';
 import Hero from './components/Hero';
+import Footer from './components/Footer';
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -30,6 +31,8 @@ function App() {
       <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
 
       {filteredSpots.length > 0 ? <SpotList spots={filteredSpots} /> : <EmptyState />}
+
+      <Footer />
 
     </div>
   )

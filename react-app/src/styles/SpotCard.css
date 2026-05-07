@@ -97,5 +97,5 @@
 }
 
 .card-footer .spot-link:hover {
-    opacity: 0.6;
+    transform: scale(1.03);
 }
