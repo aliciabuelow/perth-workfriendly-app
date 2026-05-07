@@ -1,3 +1,15 @@
 .App {
-    margin: 20px;
+    display: block;
+    margin: 2vh 2vw;
+}
+
+.empty-state {
+    text-align: center;
+    color: #fff;
+}
+
+@media (width >= 600px) {
+    .App {
+        margin: 3vh 4vw;
+    }
 }
