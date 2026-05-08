@@ -53,5 +53,181 @@ export const spots = [
         tags: ["free", "wi-fi", "study spaces", "computers", "accessible"],
         bestFor: ["focused work", "study", "reading"],
         notes: "A local library located on Stirling Highway, useful for straightforward study, browsing, computer access, or a quieter work session."
+    },
+    {
+        id: 6,
+        name: "City of Perth Library",
+        suburb: "Perth",
+        type: "Library",
+        address: "573 Hay St, Perth WA 6000",
+        website: "https://perth.wa.gov.au/community/community-services-and-facilities/city-of-perth-library",
+        tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
+        bestFor: ["focused work", "study", "reading"],
+        notes: "A central library in Cathedral Square with study areas, bookable rooms, and Page7 Cafe on the ground floor."
+    },
+        {
+        id: 7,
+        name: "Reid Library (UWA)",
+        suburb: "Crawley",
+        type: "Library",
+        address: "35 Stirling Highway, Crawley WA 6009",
+        website: "https://www.uwa.edu.au/facilities/reid-library",
+        tags: ["free", "study spaces", "food and drink", "computers", "accessible"],
+        bestFor: ["focused work", "study", "reading"],
+        notes: "A large campus library with 2,000+ study spaces, bookable rooms, a cafe, and visitor kiosk internet access (no general public Wi-Fi)."
+    },
+        {
+        id: 8,
+        name: "TL Robertson Library (Curtin)",
+        suburb: "Bentley",
+        type: "Library",
+        address: "Curtin University, 105, Kent St, Bentley WA 6102",
+        website: "https://www.curtin.edu.au/library/using-the-library/tl-robertson-library/",
+        tags: ["free", "study spaces", "food and drink", "accessible"],
+        bestFor: ["focused work", "study", "reading"],
+        notes: "A large Curtin campus library with quiet study areas, bookable rooms, an outdoor terrace, and a cafe, but limited Wi-Fi and computer access for visitors."
+    },
+        {
+        id: 9,
+        name: "",
+        suburb: "",
+        type: "",
+        address: "",
+        website: "",
+        tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
+        bestFor: ["focused work", "study", "reading"],
+        notes: ""
+    },
+        {
+        id: 10,
+        name: "",
+        suburb: "",
+        type: "",
+        address: "",
+        website: "",
+        tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
+        bestFor: ["focused work", "study", "reading"],
+        notes: ""
+    },
+        {
+        id: 11,
+        name: "",
+        suburb: "",
+        type: "",
+        address: "",
+        website: "",
+        tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
+        bestFor: ["focused work", "study", "reading"],
+        notes: ""
+    },
+        {
+        id: 12,
+        name: "",
+        suburb: "",
+        type: "",
+        address: "",
+        website: "",
+        tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
+        bestFor: ["focused work", "study", "reading"],
+        notes: ""
+    },
+        {
+        id: 13,
+        name: "",
+        suburb: "",
+        type: "",
+        address: "",
+        website: "",
+        tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
+        bestFor: ["focused work", "study", "reading"],
+        notes: ""
+    },
+        {
+        id: 14,
+        name: "",
+        suburb: "",
+        type: "",
+        address: "",
+        website: "",
+        tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
+        bestFor: ["focused work", "study", "reading"],
+        notes: ""
+    },
+    {
+        id: 15,
+        name: "",
+        suburb: "",
+        type: "",
+        address: "",
+        website: "",
+        tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
+        bestFor: ["focused work", "study", "reading"],
+        notes: ""
+    },
+    {
+        id: 16,
+        name: "",
+        suburb: "",
+        type: "",
+        address: "",
+        website: "",
+        tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
+        bestFor: ["focused work", "study", "reading"],
+        notes: ""
+    },
+    {
+        id: 17,
+        name: "",
+        suburb: "",
+        type: "",
+        address: "",
+        website: "",
+        tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
+        bestFor: ["focused work", "study", "reading"],
+        notes: ""
+    },
+    {
+        id: 18,
+        name: "",
+        suburb: "",
+        type: "",
+        address: "",
+        website: "",
+        tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
+        bestFor: ["focused work", "study", "reading"],
+        notes: ""
+    },
+    {
+        id: 19,
+        name: "",
+        suburb: "",
+        type: "",
+        address: "",
+        website: "",
+        tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
+        bestFor: ["focused work", "study", "reading"],
+        notes: ""
+    },
+    {
+        id: 20,
+        name: "",
+        suburb: "",
+        type: "",
+        address: "",
+        website: "",
+        tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
+        bestFor: ["focused work", "study", "reading"],
+        notes: ""
+    },
+    {
+        id: 21,
+        name: "",
+        suburb: "",
+        type: "",
+        address: "",
+        website: "",
+        tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
+        bestFor: ["focused work", "study", "reading"],
+        notes: ""
     }
 ]
