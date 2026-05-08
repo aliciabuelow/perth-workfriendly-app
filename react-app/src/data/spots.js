@@ -199,35 +199,35 @@ export const spots = [
     },
     {
         id: 19,
-        name: "",
-        suburb: "",
-        type: "",
-        address: "",
-        website: "",
-        tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
-        bestFor: ["focused work", "study", "reading"],
-        notes: ""
+        name: "Esplanade Park",
+        suburb: "Fremantle",
+        type: "Park",
+        address: "Marine Terrace, Fremantle WA 6160",
+        website: "https://www.fremantle.wa.gov.au/services-and-support/city-facilities/esplanade-park/",
+        tags: ["free", "wi-fi", "accessible"],
+        bestFor: ["casual work", "study", "reading"],
+        notes: "A harbourfront public park with shaded seating, toilets, and lots of open space. Good option for reading, offline work, and group discussion."
     },
     {
         id: 20,
-        name: "",
-        suburb: "",
-        type: "",
-        address: "",
-        website: "",
-        tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
-        bestFor: ["focused work", "study", "reading"],
-        notes: ""
+        name: "Walyalup Fremantle Arts Centre",
+        suburb: "Fremantle",
+        type: "Cultural Centre",
+        address: "1 Finnerty Street, Fremantle WA 6160",
+        website: "https://wfac.org.au/",
+        tags: ["free", "wi-fi", "food and drink", "accessible"],
+        bestFor: ["casual work", "study", "reading"],
+        notes: "A cultural and arts centre with leafy gardens and Plated Cafe, suitable to casual work, reading, or a creative reset."
     },
     {
         id: 21,
-        name: "",
-        suburb: "",
-        type: "",
-        address: "",
-        website: "",
-        tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
-        bestFor: ["focused work", "study", "reading"],
-        notes: ""
+        name: "Scarborough Beach Foreshore",
+        suburb: "Scarborough",
+        type: "Public Space",
+        address: "The Esplanade, Scarborough WA 6019",
+        website: "https://www.stirling.wa.gov.au/stirling-leisure/venue-and-facility-hire/scarborough-beach",
+        tags: ["free", "wi-fi", "food and drink", "accessible"],
+        bestFor: ["casual work", "study", "reading"],
+        notes: "A beach foreshore and esplanade with an amphitheatre, cafes, outdoor seating, and open space. Best for reading, outdoor breaks, or cafe-based work."
     }
 ]
