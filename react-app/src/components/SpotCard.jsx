@@ -21,9 +21,10 @@ export default function SpotCard({ spot }) {
                 </div>
             </div>
 
-            <div className="line"></div>
 
             <footer className="card-footer">
+                <div className="line"></div>
+                
                 <div className="spot-address">{spot.address}</div>
                 <a 
                  href={spot.website} 
