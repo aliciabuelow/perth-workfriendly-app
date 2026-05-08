@@ -30,6 +30,10 @@ function App() {
 
       <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} />
 
+      {filteredSpots.length > 0 && (
+      <h4>{filteredSpots.length} spot{filteredSpots.length === 1 ? "" : "s"} found</h4>
+      )}
+
       {filteredSpots.length > 0 ? <SpotList spots={filteredSpots} /> : <EmptyState />}
 
       <Footer />

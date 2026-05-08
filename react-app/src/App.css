@@ -3,6 +3,12 @@
     margin: 2vh 2vw;
 }
 
+.App h4 {
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #fff;
+}
+
 @media (width >= 600px) {
     .App {
         margin: 3vh 4vw;
