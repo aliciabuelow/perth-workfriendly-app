@@ -9,7 +9,9 @@ export default function Footer() {
                 <a href="https://aliciabuelow.dev" className="logo-link" target="_blank">
                     <img src={Logo} alt="AB Logo" className="logo" width="60rem" />
                 </a>
-                <footer>© 2026 Alicia Buelow</footer>
+                <footer>
+                    © 2026 Alicia Buelow
+                </footer>
             </div>
         </div>
     );
