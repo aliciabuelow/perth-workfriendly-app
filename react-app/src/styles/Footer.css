@@ -17,7 +17,7 @@
 }
 
 .logo {
-    filter: contrast(35%) brightness(160%);
+    filter: contrast(35%) brightness(180%);
     transition: all 400ms ease;
 }
 
