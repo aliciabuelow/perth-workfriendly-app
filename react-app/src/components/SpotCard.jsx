@@ -3,8 +3,10 @@ import '../styles/SpotCard.css';
 export default function SpotCard({ spot }) {
     return (
         <article className="spot-card">
+            <div className="spot-type-header">{spot.type}</div>
+            
+            <section className="card-content">
             <header className="card-heading">
-                <div className="type-badge">{spot.type}</div>
                 <h2 className="spot-name">{spot.name}</h2>
                 <div className="spot-suburb">{spot.suburb}</div>
             </header>
@@ -35,6 +37,7 @@ export default function SpotCard({ spot }) {
                     Visit Website
                 </a>
             </footer>
+            </section>
         </article>
     )
 }
