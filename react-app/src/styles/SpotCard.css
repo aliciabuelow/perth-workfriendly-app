@@ -7,22 +7,27 @@
 }
 
 .spot-card:hover {
-    transform: scale(1.04)
+    transform: scale(1.01);
 }
 
 .spot-type-header {
-    opacity: 0.9;
     background: rgba(255, 255, 255, 0.11);
     border-radius: 2rem 2rem 0 0;
     text-align: center;
     margin-bottom: auto;
-    padding: 0.5rem 0;
+    padding: 1rem 0 0.4rem;
     color: #fff;
     text-transform: uppercase;
     font-size: 1.5rem;
     font-weight: 700;
     font-family: 'Bebas Neue', sans-serif;
     letter-spacing: 0.02rem;
+    transition: all 300ms ease;
+}
+
+.spot-type-header:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    cursor: pointer;
 }
 
 .card-content {
@@ -72,6 +77,11 @@
     color: #fff;
     font-size: 0.55rem;
     font-weight: 700;
+    transition: all 150ms ease;
+}
+
+.spot-tag:hover {
+    cursor: pointer;
 }
 
 .line {
@@ -93,7 +103,7 @@
     font-weight: 600;
 }
 
-.card-footer .spot-link {
+.spot-link {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -106,4 +116,9 @@
     text-transform: uppercase;
     font-size: 0.875rem;
     font-weight: 800;
+    transition: all 100ms ease;
+}
+
+.spot-link:hover {
+    color: #303030;
 }
