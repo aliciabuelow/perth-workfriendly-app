@@ -18,10 +18,11 @@
 }
 
 .logo {
-    filter: contrast(190%);
-    transition: all 300ms ease;
+    filter: contrast(35%) brightness(140%);
+    transition: all 400ms ease;
 }
 
 .logo:hover {
     transform: scale(1.05);
+    filter: contrast(100%);
 }
