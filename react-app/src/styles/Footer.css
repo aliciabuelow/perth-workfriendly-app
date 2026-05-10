@@ -4,7 +4,6 @@
     padding: 1rem;
     width: 100%;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.075);
     border-radius: 2rem;
     
 }
@@ -18,7 +17,7 @@
 }
 
 .logo {
-    filter: contrast(35%) brightness(140%);
+    filter: contrast(35%) brightness(160%);
     transition: all 400ms ease;
 }
 
