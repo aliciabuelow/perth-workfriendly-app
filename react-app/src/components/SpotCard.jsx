@@ -1,9 +1,15 @@
 import '../styles/SpotCard.css';
 
-export default function SpotCard({ spot }) {
+export default function SpotCard({ spot, onFilterClick }) {
     return (
         <article className="spot-card">
-            <div className="spot-type-header">{spot.type}</div>
+            <button 
+            className="spot-type-header"
+            onClick={onFilterClick}
+            value={spot.type}
+            >
+                {spot.type}
+            </button>
             
             <section className="card-content">
             <header className="card-heading">
@@ -16,9 +22,14 @@ export default function SpotCard({ spot }) {
 
                 <div className="spot-tags">
                     {spot.tags.map((item) => (
-                        <div key={item} className="spot-tag">
+                        <button 
+                        key={item} 
+                        className="spot-tag"
+                        onClick={onFilterClick}
+                        value={item}
+                        >
                             {item}
-                        </div>
+                        </button>
                     ))}
                 </div>
             </div>
