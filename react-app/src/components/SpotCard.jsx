@@ -17,8 +17,17 @@ export default function SpotCard({ spot, onFilterClick, targetRef }) {
             
             <section className="card-content">
             <header className="card-heading">
+
                 <h2 className="spot-name">{spot.name}</h2>
-                <div className="spot-suburb">{spot.suburb}</div>
+
+                <button 
+                    className="spot-suburb"
+                    onClick={onFilterClick}
+                    value={spot.suburb}
+                >
+                    {spot.suburb}
+                </button>
+                
             </header>
 
             <div className="card-body">
