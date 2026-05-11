@@ -21,7 +21,7 @@
 
 .hero-subheading {
     margin: 0;
-    max-width: 60%;
+    max-width: 75%;
     font-size: clamp(0.75rem, 3vw, 1.25rem);
     font-weight: 500;
 }
