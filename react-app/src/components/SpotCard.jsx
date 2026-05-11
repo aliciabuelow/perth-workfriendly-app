@@ -33,7 +33,7 @@ export default function SpotCard({ spot, onFilterClick }) {
                     ))}
                 </div>
             </div>
-
+            </section>
 
             <footer className="card-footer">
                 <div className="line"></div>
@@ -48,7 +48,7 @@ export default function SpotCard({ spot, onFilterClick }) {
                     Visit Website
                 </a>
             </footer>
-            </section>
+
         </article>
     )
 }
