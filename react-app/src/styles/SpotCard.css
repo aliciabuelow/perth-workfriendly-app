@@ -14,8 +14,8 @@
 }
 
 .student-spaces, .community-hubs, .cultural-centres {
-    background-color: #ff7053;
-    color: #fff;
+    background-color: #e1d5f9;
+    color: #1b1b1b;
 }
 
 .parks {
@@ -55,14 +55,17 @@
     cursor: pointer;
 }
 
-.parks .spot-type-header {
+:is(.parks, .community-hubs, .cultural-centres, .student-spaces) .spot-type-header {
     background-color: rgba(0, 0, 0, 0.08);
+}
+
+:is(.parks, .community-hubs, .cultural-centres, .student-spaces) .spot-type-header:hover {
+    background-color: rgba(0, 0, 0, 0.13);
 }
 
 .card-content {
     display: flex;
     flex-direction: column;
-    gap: 0.5;
     padding: 0 1.5rem;
 }
 
@@ -108,8 +111,8 @@
     transition: all 150ms ease;
 }
 
-.parks .spot-tag {
-    border: 1px solid black;
+:is(.parks, .community-hubs, .cultural-centres, .student-spaces) .spot-tag {
+    border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 .spot-tag:hover {
@@ -119,11 +122,7 @@
 .line {
     margin: 1rem 0;
     opacity: 0.4;
-    border-bottom: 0.5px solid #fff;
-}
-
-.parks .line {
-    border-bottom: 0.5px solid black;
+    border-bottom: 0.5px solid currentColor;
 }
 
 .card-footer {
