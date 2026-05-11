@@ -4,14 +4,14 @@
     min-width: 0;
     width: 100%;
     padding: 1.5rem;
-    background-color: #D6C9F2;
+    background-color: var(--primary-color);
     border-radius: 2.25rem;
     overflow-wrap: break-word;
 }
 
 .hero-title {
     margin: 30px 0 15px 0;
-    color: #FF4033;
+    color: var(--secondary-color);
     text-transform: uppercase;
     font-size: clamp(2.75rem, 9vw, 8rem);
     font-weight: 900;

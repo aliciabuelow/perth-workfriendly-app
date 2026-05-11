@@ -12,6 +12,17 @@ export const spots = [
     },
     {
         id: 2,
+        name: "Hyde Park",
+        suburb: "Perth",
+        type: "Parks",
+        address: "Vincent St & William St, Perth WA 6000",
+        website: "https://www.vincent.wa.gov.au/parks-and-facilities/hyde-park",
+        tags: ["free", "food and drink", "accessible"],
+        bestFor: ["casual work", "study", "reading"],
+        notes: "An inner-city park with shaded lawns, gazebos, benches, and picnic tables to set up on, as well as toilets, a kiosk, and paved paths. Best suited for offline work, group work, or reading. Many food and drink options nearby."
+    },
+    {
+        id: 3,
         name: "The Grove Library",
         suburb: "Peppermint Grove",
         type: "Libraries",
@@ -22,172 +33,7 @@ export const spots = [
         notes: "A western suburbs community library shared by Peppermint Grove, Cottesloe, and Mosman Park, with spaces for reading, studying, meeting, and browsing."
     },
     {
-        id: 3,
-        name: "Fremantle Library",
-        suburb: "Fremantle",
-        type: "Libraries",
-        address: "151 High St, Fremantle WA 6160",
-        website: "https://www.fremantle.wa.gov.au/services-and-support/fremantle-library/",
-        tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
-        bestFor: ["focused work", "study", "reading"],
-        notes: "A modern library inside Walyalup Civic Centre, offering spaces for relaxation and work, as well as various kid-friendly resources and activities."
-    },
-    {
         id: 4,
-        name: "Manning Library",
-        suburb: "Manning",
-        type: "Libraries",
-        address: "2 Conochie Cres, Manning WA 6152",
-        website: "https://www.southperth.wa.gov.au/libraries",
-        tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
-        bestFor: ["focused work", "study", "reading"],
-        notes: "A local Manning library suited to a simple work, study, or reading session, with the practical facilities available thrugh the South Perth library network."
-    },
-    {
-        id: 5,
-        name: "City of Nedlands Library",
-        suburb: "Nedlands",
-        type: "Libraries",
-        address: "60 Stirling Hwy, Nedlands WA 6009",
-        website: "https://www.nedlands.wa.gov.au/community/libraries/library-services.aspx",
-        tags: ["free", "wi-fi", "study spaces", "computers", "accessible"],
-        bestFor: ["focused work", "study", "reading"],
-        notes: "A local library located on Stirling Highway, useful for straightforward study, browsing, computer access, or a quieter work session."
-    },
-    {
-        id: 6,
-        name: "City of Perth Library",
-        suburb: "Perth",
-        type: "Libraries",
-        address: "573 Hay St, Perth WA 6000",
-        website: "https://perth.wa.gov.au/community/community-services-and-facilities/city-of-perth-library",
-        tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
-        bestFor: ["focused work", "study", "reading"],
-        notes: "A central library in Cathedral Square with study areas, bookable rooms, and Page7 Cafe on the ground floor."
-    },
-        {
-        id: 7,
-        name: "Reid Library (UWA)",
-        suburb: "Crawley",
-        type: "Libraries",
-        address: "35 Stirling Highway, Crawley WA 6009",
-        website: "https://www.uwa.edu.au/facilities/reid-library",
-        tags: ["free", "study spaces", "food and drink", "computers", "accessible"],
-        bestFor: ["focused work", "study", "reading"],
-        notes: "A large campus library with 2,000+ study spaces, bookable rooms, a cafe, and visitor kiosk internet access (no general public Wi-Fi)."
-    },
-        {
-        id: 8,
-        name: "TL Robertson Library (Curtin)",
-        suburb: "Bentley",
-        type: "Libraries",
-        address: "Curtin University, 105, Kent St, Bentley WA 6102",
-        website: "https://www.curtin.edu.au/library/using-the-library/tl-robertson-library/",
-        tags: ["free", "study spaces", "food and drink", "accessible"],
-        bestFor: ["focused work", "study", "reading"],
-        notes: "A large Curtin campus library with quiet study areas, bookable rooms, an outdoor terrace, and a cafe, but limited Wi-Fi and computer access for visitors."
-    },
-        {
-        id: 9,
-        name: "AH Bracks Library + Creative Space",
-        suburb: "Melville",
-        type: "Libraries",
-        address: "431 Canning Highway, Melville WA 6157",
-        website: "https://www.melvillecity.com.au/things-to-do/libraries/library-contacts-and-opening-hours#AHBracksLibrary_CreativeSpace",
-        tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
-        bestFor: ["focused work", "study", "reading"],
-        notes: "A local Melville library at the recreation centre, with public computers and a creative/community focus. Expect more of a family-friendly library setting than dedicated study hub."
-    },
-        {
-        id: 10,
-        name: "StudyPerth International Student Hub",
-        suburb: "Perth",
-        type: "Student Spaces",
-        address: "555 Wellington Street, Perth WA 6000",
-        website: "https://www.studyperth.com.au/student-support/student-hub/",
-        tags: ["international students", "free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
-        bestFor: ["focused work", "study", "reading"],
-        notes: "A dedicated international-student hub for studying, meeting other students, support, and free facilities like computers, printing, snacks, and hot drinks."
-    },
-        {
-        id: 11,
-        name: "J. Robin Warren Library (UWA)",
-        suburb: "Nedlands",
-        type: "Libraries",
-        address: "UWA, 17 Monash Ave, Nedlands WA 6009",
-        website: "https://www.uwa.edu.au/facilities/j-robin-warren-library",
-        tags: ["free", "study spaces", "silent areas", "food and drink", "computers", "accessible"],
-        bestFor: ["focused work", "study", "reading"],
-        notes: "A large UWA campus library with silent study areas, collaborative zones, bookable rooms, device charging, and an adjacent kiosk."
-    },
-        {
-        id: 12,
-        name: "City of Vincent Library",
-        suburb: "Leederville",
-        type: "Libraries",
-        address: "99 Loftus St, Leederville WA 6007",
-        website: "https://library.vincent.wa.gov.au/",
-        tags: ["free", "wi-fi", "study spaces", "computers", "accessible"],
-        bestFor: ["focused work", "study", "reading"],
-        notes: "A community library and community hub with study space, bookable rooms, a kitchenette with a coffee machine, a dedicated young-adult student area, and designated quiet times."
-    },
-        {
-        id: 13,
-        name: "Ruth Faulkner Library",
-        suburb: "Belmont",
-        type: "Libraries",
-        address: "213 Wright St, Cloverdale WA 6105",
-        website: "https://www.belmont.wa.gov.au/discover/places-to-go/ruth-faulkner-library-and-belmont-museum",
-        tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
-        bestFor: ["focused work", "study", "reading"],
-        notes: "A two-level library inside Belmont Hub, with study spaces, power points, bookable rooms, and 8 Yolks Cafe in the same community center."
-    },
-        {
-        id: 14,
-        name: "Midland Public Library",
-        suburb: "Midland",
-        type: "Libraries",
-        address: "45 Helena St, Midland WA 6056",
-        website: "https://www.swan.wa.gov.au/explore-and-do/libraries/locations-and-hours/midland-library",
-        tags: ["free", "wi-fi", "study spaces", "computers", "accessible"],
-        bestFor: ["focused work", "study", "reading"],
-        notes: "A City of Swan library with study and work spaces, meeting rooms, and scheduled Quiet Hour sessions."
-    },
-    {
-        id: 15,
-        name: "Holy Grounds, Cathedral Square",
-        suburb: "Perth",
-        type: "Community Hubs",
-        address: "Level 1, 3 Pier St, Perth WA 6000",
-        website: "https://www.holygrounds.org.au/",
-        tags: ["free", "wi-fi", "study spaces", "food and drink", "accessible"],
-        bestFor: ["casual work", "study", "reading"],
-        notes: "A social enterprise cafe and community hub in Cathedral Square, suited to casual work, study, or reading with good food and welcoming social atmosphere. Limited hours."
-    },
-    {
-        id: 16,
-        name: "Hyde Park",
-        suburb: "Perth",
-        type: "Parks",
-        address: "Vincent St & William St, Perth WA 6000",
-        website: "https://www.vincent.wa.gov.au/parks-and-facilities/hyde-park",
-        tags: ["free", "food and drink", "accessible"],
-        bestFor: ["casual work", "study", "reading"],
-        notes: "An inner-city park with shaded lawns, gazebos, benches, toilets, a kiosk, and paved paths. Best suited for reading, offline work, or an outdoor reset."
-    },
-    {
-        id: 17,
-        name: "Kings Park and Botanic Garden",
-        suburb: "Perth",
-        type: "Parks",
-        address: "Fraser Avenue, Perth WA 6000",
-        website: "https://www.bgpa.wa.gov.au/kings-park",
-        tags: ["free", "wi-fi", "food and drink", "accessible"],
-        bestFor: ["casual work", "study", "reading"],
-        notes: "A free, expansive public park with shaded lawns, cafes, toilets, and picnic areas, suitable for reading, offline work, or working while walking."
-    },
-    {
-        id: 18,
         name: "Elizabeth Quay",
         suburb: "Perth",
         type: "Public Spaces",
@@ -198,18 +44,40 @@ export const spots = [
         notes: "A central waterfront precinct with lawns, promenades, and seating areas, suitable to casual work, reading, study, and outdoor breaks. Many adjacent cafes."
     },
     {
-        id: 19,
-        name: "Esplanade Park",
+        id: 5,
+        name: "Fremantle Library",
         suburb: "Fremantle",
-        type: "Parks",
-        address: "Marine Terrace, Fremantle WA 6160",
-        website: "https://www.fremantle.wa.gov.au/services-and-support/city-facilities/esplanade-park/",
-        tags: ["free", "wi-fi", "accessible"],
-        bestFor: ["casual work", "study", "reading"],
-        notes: "A harbourfront public park with shaded seating, toilets, and lots of open space. Good option for reading, offline work, and group discussion."
+        type: "Libraries",
+        address: "151 High St, Fremantle WA 6160",
+        website: "https://www.fremantle.wa.gov.au/services-and-support/fremantle-library/",
+        tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
+        bestFor: ["focused work", "study", "reading"],
+        notes: "A modern library inside Walyalup Civic Centre, offering spaces for relaxation and work, as well as various kid-friendly resources and activities."
     },
     {
-        id: 20,
+        id: 6,
+        name: "Holy Grounds, Cathedral Square",
+        suburb: "Perth",
+        type: "Community Hubs",
+        address: "Level 1, 3 Pier St, Perth WA 6000",
+        website: "https://www.holygrounds.org.au/",
+        tags: ["free", "wi-fi", "study spaces", "food and drink", "accessible"],
+        bestFor: ["casual work", "study", "reading"],
+        notes: "A social enterprise cafe and community hub in Cathedral Square, suited to casual work, study, or reading with good food and welcoming social atmosphere. Limited hours."
+    },
+    {
+        id: 7,
+        name: "Manning Library",
+        suburb: "Manning",
+        type: "Libraries",
+        address: "2 Conochie Cres, Manning WA 6152",
+        website: "https://www.southperth.wa.gov.au/libraries",
+        tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
+        bestFor: ["focused work", "study", "reading"],
+        notes: "A local Manning library suited to a simple work, study, or reading session, with the practical facilities available thrugh the South Perth library network."
+    },
+    {
+        id: 8,
         name: "Walyalup Fremantle Arts Centre",
         suburb: "Fremantle",
         type: "Cultural Centres",
@@ -220,7 +88,73 @@ export const spots = [
         notes: "A cultural and arts centre with leafy gardens and Plated Cafe, suitable to casual work, reading, or a creative reset."
     },
     {
-        id: 21,
+        id: 9,
+        name: "City of Nedlands Library",
+        suburb: "Nedlands",
+        type: "Libraries",
+        address: "60 Stirling Hwy, Nedlands WA 6009",
+        website: "https://www.nedlands.wa.gov.au/community/libraries/library-services.aspx",
+        tags: ["free", "wi-fi", "study spaces", "computers", "accessible"],
+        bestFor: ["focused work", "study", "reading"],
+        notes: "A local library located on Stirling Highway, useful for straightforward study, browsing, computer access, or a quieter work session."
+    },
+    {
+        id: 10,
+        name: "City of Vincent Library",
+        suburb: "Leederville",
+        type: "Libraries",
+        address: "99 Loftus St, Leederville WA 6007",
+        website: "https://library.vincent.wa.gov.au/",
+        tags: ["free", "wi-fi", "study spaces", "computers", "accessible"],
+        bestFor: ["focused work", "study", "reading"],
+        notes: "A community library and community hub with study space, bookable rooms, a kitchenette with a coffee machine, a dedicated young-adult student area, and designated quiet times."
+    },
+    {
+        id: 11,
+        name: "StudyPerth Hub",
+        suburb: "Perth",
+        type: "Student Spaces",
+        address: "555 Wellington Street, Perth WA 6000",
+        website: "https://www.studyperth.com.au/student-support/student-hub/",
+        tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
+        bestFor: ["focused work", "study", "reading"],
+        notes: "International students only! A dedicated hub for studying, meeting other students, support, and free facilities like computers, printing, snacks, and hot drinks."
+    },
+    {
+        id: 12,
+        name: "City of Perth Library",
+        suburb: "Perth",
+        type: "Libraries",
+        address: "573 Hay St, Perth WA 6000",
+        website: "https://perth.wa.gov.au/community/community-services-and-facilities/city-of-perth-library",
+        tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
+        bestFor: ["focused work", "study", "reading"],
+        notes: "A central library in Cathedral Square with study areas, bookable rooms, and Page7 Cafe on the ground floor."
+    },
+    {
+        id: 13,
+        name: "Kings Park and Botanic Garden",
+        suburb: "Perth",
+        type: "Parks",
+        address: "Fraser Avenue, Perth WA 6000",
+        website: "https://www.bgpa.wa.gov.au/kings-park",
+        tags: ["free", "wi-fi", "food and drink", "accessible"],
+        bestFor: ["casual work", "study", "reading"],
+        notes: "A free, expansive public park with shaded lawns, cafes, toilets, and picnic areas, suitable for reading, offline work, or working while walking."
+    },
+    {
+        id: 14,
+        name: "Reid Library (UWA)",
+        suburb: "Crawley",
+        type: "Libraries",
+        address: "35 Stirling Highway, Crawley WA 6009",
+        website: "https://www.uwa.edu.au/facilities/reid-library",
+        tags: ["free", "study spaces", "food and drink", "computers", "accessible"],
+        bestFor: ["focused work", "study", "reading"],
+        notes: "A large campus library with 2,000+ study spaces, bookable rooms, a cafe, and visitor kiosk internet access (no general public Wi-Fi)."
+    },
+    {
+        id: 15,
         name: "Scarborough Beach Foreshore",
         suburb: "Scarborough",
         type: "Public Spaces",
@@ -229,5 +163,71 @@ export const spots = [
         tags: ["free", "wi-fi", "food and drink", "accessible"],
         bestFor: ["casual work", "study", "reading"],
         notes: "A beach foreshore and esplanade with an amphitheatre, cafes, outdoor seating, and open space. Best for reading, outdoor breaks, or cafe-based work."
+    },
+    {
+        id: 16,
+        name: "TL Robertson Library (Curtin)",
+        suburb: "Bentley",
+        type: "Libraries",
+        address: "Curtin University, 105, Kent St, Bentley WA 6102",
+        website: "https://www.curtin.edu.au/library/using-the-library/tl-robertson-library/",
+        tags: ["free", "study spaces", "food and drink", "accessible"],
+        bestFor: ["focused work", "study", "reading"],
+        notes: "A large Curtin campus library with quiet study areas, bookable rooms, an outdoor terrace, and a cafe, but limited Wi-Fi and computer access for visitors."
+    },
+    {
+        id: 17,
+        name: "AH Bracks Library + Creative Space",
+        suburb: "Melville",
+        type: "Libraries",
+        address: "431 Canning Highway, Melville WA 6157",
+        website: "https://www.melvillecity.com.au/things-to-do/libraries/library-contacts-and-opening-hours#AHBracksLibrary_CreativeSpace",
+        tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
+        bestFor: ["focused work", "study", "reading"],
+        notes: "A local Melville library at the recreation centre, with public computers and a creative/community focus. Expect more of a family-friendly library setting than dedicated study hub."
+    },
+    {
+        id: 18,
+        name: "Esplanade Park",
+        suburb: "Fremantle",
+        type: "Parks",
+        address: "Marine Terrace, Fremantle WA 6160",
+        website: "https://www.fremantle.wa.gov.au/services-and-support/city-facilities/esplanade-park/",
+        tags: ["free", "wi-fi", "accessible"],
+        bestFor: ["casual work", "study", "reading"],
+        notes: "A harbourfront public park with shaded seating, toilets, and lots of open space. Good option for reading, offline work, and group discussion."
+    },
+    {
+        id: 19,
+        name: "J. Robin Warren Library (UWA)",
+        suburb: "Nedlands",
+        type: "Libraries",
+        address: "UWA, 17 Monash Ave, Nedlands WA 6009",
+        website: "https://www.uwa.edu.au/facilities/j-robin-warren-library",
+        tags: ["free", "study spaces", "silent areas", "food and drink", "computers", "accessible"],
+        bestFor: ["focused work", "study", "reading"],
+        notes: "A large UWA campus library with silent study areas, collaborative zones, bookable rooms, device charging, and an adjacent kiosk."
+    },
+    {
+        id: 20,
+        name: "Ruth Faulkner Library",
+        suburb: "Belmont",
+        type: "Libraries",
+        address: "213 Wright St, Cloverdale WA 6105",
+        website: "https://www.belmont.wa.gov.au/discover/places-to-go/ruth-faulkner-library-and-belmont-museum",
+        tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
+        bestFor: ["focused work", "study", "reading"],
+        notes: "A two-level library inside Belmont Hub, with study spaces, power points, bookable rooms, and 8 Yolks Cafe in the same community center."
+    },
+    {
+        id: 21,
+        name: "Midland Public Library",
+        suburb: "Midland",
+        type: "Libraries",
+        address: "45 Helena St, Midland WA 6056",
+        website: "https://www.swan.wa.gov.au/explore-and-do/libraries/locations-and-hours/midland-library",
+        tags: ["free", "wi-fi", "study spaces", "computers", "accessible"],
+        bestFor: ["focused work", "study", "reading"],
+        notes: "A City of Swan library with study and work spaces, meeting rooms, and scheduled Quiet Hour sessions."
     }
 ]

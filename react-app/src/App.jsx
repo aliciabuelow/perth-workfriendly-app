@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import './App.css';
 import { spots } from './data/spots.js';
 import SpotList from './components/SpotList';
@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
+  const targetRef = useRef(null);
 
   const handleSearch = (e) => {
     setSearchTerm(e.target.value);
@@ -26,8 +27,10 @@ function App() {
   });
 
   const onFilterClick = (e) => {
-    console.log("clicked", e.currentTarget.value);
-    setSearchTerm(e.currentTarget.value);
+    setSearchTerm(e.currentTarget.value.toLowerCase());
+
+    targetRef.current?.scrollIntoView({ behavior: 'smooth' });
+    
   };
 
   const clearSearch = () => {
@@ -38,7 +41,12 @@ function App() {
     <div className="App">
       <Hero />
 
-      <SearchBar searchTerm={searchTerm} handleSearch={handleSearch} clearSearch={clearSearch} />
+      <SearchBar 
+        searchTerm={searchTerm} 
+        handleSearch={handleSearch} 
+        clearSearch={clearSearch} 
+        targetRef={targetRef}
+      />
 
       {filteredSpots.length > 0 && (
       <h4>{filteredSpots.length} spot{filteredSpots.length === 1 ? "" : "s"} found</h4>

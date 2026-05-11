@@ -3,9 +3,30 @@
     flex-direction: column;
     min-width: 0;
     width: 100%;
-    background-color: #FF4033;
+    
     border-radius: 2rem;
     transition: all 300ms ease;
+}
+
+.libraries {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.student-spaces, .community-hubs, .cultural-centres {
+    background-color: #ff7053;
+    color: #fff;
+}
+
+.parks {
+    background-color: var(--accent-color);
+    color: #1b1b1b;
+}
+
+.public-spaces {
+    background-color: var(--accent-two);
+    color: #fff;
+    border-bottom: 0.075rem dashed rgba(255, 255, 255, 0.3);
 }
 
 .spot-card:hover {
@@ -14,31 +35,35 @@
 
 .spot-type-header {
     width: 100%;
-    background: rgba(255, 255, 255, 0.11);
+    background: rgba(255, 255, 255, 0.15);
     border: none;
     border-radius: 2rem 2rem 0 0;
     text-align: center;
     margin-bottom: auto;
     padding: 1rem 0 0.4rem;
-    color: #fff;
     text-transform: uppercase;
+    color: inherit;
     font-size: 1.5rem;
     font-weight: 700;
     font-family: 'Bebas Neue', sans-serif;
-    letter-spacing: 0.02rem;
+    letter-spacing: 0.05rem;
     transition: all 300ms ease;
 }
 
 .spot-type-header:hover {
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(255, 255, 255, 0.3);
     cursor: pointer;
+}
+
+.parks .spot-type-header {
+    background-color: rgba(0, 0, 0, 0.08);
 }
 
 .card-content {
     display: flex;
     flex-direction: column;
     gap: 0.5;
-    padding: 0 1.5rem 1.5rem 1.5rem;
+    padding: 0 1.5rem;
 }
 
 .card-heading {
@@ -48,13 +73,11 @@
 
 .card-heading .spot-name {
     margin-bottom: 0.2rem;
-    color: #fff;
     font-size: 1.75rem;
     font-weight: 800;
 }
 
 .card-heading .spot-suburb {
-    color: #fff;
     opacity: 0.8;
     font-size: 1rem;
     font-weight: 600;
@@ -62,7 +85,6 @@
 }
 
 .card-body .spot-notes {
-    color: #fff;
     font-size: 0.9rem;
 }
 
@@ -75,15 +97,19 @@
 
 .card-body .spot-tag {
     appearance: none;
-    background-color: #FF4033;
-    border: 0.5px solid rgba(255, 255, 255, 0.6);
-    border-radius: 0.25rem;
+    background: none;
+    border: 0.75px solid currentColor;
+    border-radius: 0.35rem;
     padding: 0.25rem 0.55rem;
     text-transform: uppercase;
-    color: #fff;
     font-size: 0.55rem;
     font-weight: 700;
+    color: inherit;
     transition: all 150ms ease;
+}
+
+.parks .spot-tag {
+    border: 1px solid black;
 }
 
 .spot-tag:hover {
@@ -96,16 +122,20 @@
     border-bottom: 0.5px solid #fff;
 }
 
+.parks .line {
+    border-bottom: 0.5px solid black;
+}
+
 .card-footer {
     margin-top: auto;
-    padding: 0 1rem 1rem 1rem;
+    padding: 0.75rem 1rem 1rem 1rem;
 }
 
 .card-footer .spot-address {
-    margin-bottom: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
     opacity: 0.9;
     text-transform: uppercase;
-    color: #fff;
     font-size: 0.75rem;
     font-weight: 600;
 }
@@ -117,15 +147,15 @@
     width: 100%;
     padding: 1rem;
     border-radius: 1.25rem;
-    color: #FF4033;
+    color: #474747;
     background-color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 0.875rem;
-    font-weight: 800;
+    font-weight: 700;
     transition: all 100ms ease;
 }
 
 .spot-link:hover {
-    color: #303030;
+    color: #000000;
 }

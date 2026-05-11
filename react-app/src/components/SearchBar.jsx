@@ -2,7 +2,11 @@ import '../styles/SearchBar.css';
 
 export default function SearchBar(props) {
     return (
-        <div className="search-bar">
+        <div 
+            className="search-bar" 
+            id="search-bar"
+            ref={props.targetRef}
+        >
             <div className="search-row">
                 <input 
                 type="search" 

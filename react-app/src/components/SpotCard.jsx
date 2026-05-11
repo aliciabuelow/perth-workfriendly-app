@@ -1,8 +1,12 @@
 import '../styles/SpotCard.css';
 
-export default function SpotCard({ spot, onFilterClick }) {
+export default function SpotCard({ spot, onFilterClick, targetRef }) {
+    const spotType = spot.type.toLowerCase().replaceAll(" ", "-");
+
     return (
-        <article className="spot-card">
+        <article 
+            className={`spot-card ${spotType}`}
+        >
             <button 
             className="spot-type-header"
             onClick={onFilterClick}

@@ -1,8 +1,15 @@
 body {
-    background-color: #1c1c1c;
+    background-color: #1b1b1b;
     font-family: 'Inter', sans-serif;
 }
 
 * {
     box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #D6C9F2;
+    --secondary-color: #FF4033;
+    --accent-color: #fde6d8;
+    --accent-two: #131313;
 }

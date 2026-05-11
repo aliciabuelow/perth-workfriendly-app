@@ -52,7 +52,7 @@
 
 .clear-search:hover {
     opacity: 1;
-    transform: translateX(2px);
+    transform: translateX(1px);
 }
 
 input[type="search"]::-webkit-search-cancel-button {
