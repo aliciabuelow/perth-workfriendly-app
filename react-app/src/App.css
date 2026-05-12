@@ -10,6 +10,7 @@
 }
 
 .scroll-button {
+    display: flex;
     margin: 0;
     position: fixed;
     z-index: 1000;
@@ -19,7 +20,15 @@
     width: fit-content;
     bottom: 2rem;
     border-radius: 999px;
-    padding: 1.2rem;
+    border: 2px solid black;
+    padding: 0.5rem 0.5rem;
+    transition: all 200ms ease;
+}
+
+.scroll-button:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #000;
 }
 
 @media (width >= 600px) {

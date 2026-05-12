@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import './App.css';
 import { spots } from './data/spots.js';
 import SpotList from './components/SpotList';
@@ -6,10 +6,24 @@ import SearchBar from './components/SearchBar';
 import EmptyState from './components/EmptyState';
 import Hero from './components/Hero';
 import Footer from './components/Footer';
+import { ArrowUp } from 'lucide-react';
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
+  const [showScrollButton, setShowScrollButton] = useState(false);
   const targetRef = useRef(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowScrollButton(window.scrollY > 400)
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [])
 
   const handleSearch = (e) => {
     setSearchTerm(e.target.value);
@@ -58,12 +72,14 @@ function App() {
 
       {filteredSpots.length > 0 ? <SpotList spots={filteredSpots} onFilterClick={onFilterClick} /> : <EmptyState />}
 
-      <button
+      {showScrollButton && (
+        <button
         className="scroll-button"
         onClick={onScrollUp}
       >
-        ⬆️
+        <ArrowUp size={28} />
       </button>
+      )}
 
       <Footer />
 
