@@ -9,6 +9,19 @@
     color: #fff;
 }
 
+.scroll-button {
+    margin: 0;
+    position: fixed;
+    z-index: 1000;
+    margin-inline: auto;
+    left: 0;
+    right: 0;
+    width: fit-content;
+    bottom: 2rem;
+    border-radius: 999px;
+    padding: 1.2rem;
+}
+
 @media (width >= 600px) {
     .App {
         margin: 3vh 4vw;

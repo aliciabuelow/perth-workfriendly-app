@@ -35,7 +35,11 @@ function App() {
 
   const clearSearch = () => {
     setSearchTerm("");
-  }
+  };
+
+  const onScrollUp = () => {
+    targetRef.current?.scrollIntoView({ behavior: 'smooth' });
+  };
 
   return (
     <div className="App">
@@ -53,6 +57,13 @@ function App() {
       )}
 
       {filteredSpots.length > 0 ? <SpotList spots={filteredSpots} onFilterClick={onFilterClick} /> : <EmptyState />}
+
+      <button
+        className="scroll-button"
+        onClick={onScrollUp}
+      >
+        ⬆️
+      </button>
 
       <Footer />
 
