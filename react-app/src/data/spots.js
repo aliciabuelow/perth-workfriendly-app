@@ -8,7 +8,7 @@ export const spots = [
         website: "https://slwa.wa.gov.au/",
         tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
         bestFor: ["focused work", "study", "reading"],
-        notes: "A large multi-level library within the Perth Cultural Centre, with dedicated areas for study, reading, research, and access to WA collections."
+        notes: "A large multi-level library within the Perth Cultural Centre, with separated areas for study, reading, and research. Features include extensive research resources, plenty of power points, bookable rooms, on-site cafe, and a dedicated WACE study space."
     },
     {
         id: 2,
@@ -74,7 +74,7 @@ export const spots = [
         website: "https://www.southperth.wa.gov.au/libraries",
         tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
         bestFor: ["focused work", "study", "reading"],
-        notes: "A local Manning library suited to a simple work, study, or reading session, with the practical facilities available thrugh the South Perth library network."
+        notes: "A local Manning library suited to a simple work, study, or reading session, with the practical facilities available through the South Perth library network."
     },
     {
         id: 8,
@@ -85,7 +85,7 @@ export const spots = [
         website: "https://wfac.org.au/",
         tags: ["free", "wi-fi", "food and drink", "accessible"],
         bestFor: ["casual work", "study", "reading"],
-        notes: "A cultural and arts centre with leafy gardens and Plated Cafe, suitable to casual work, reading, or a creative reset."
+        notes: "A cultural and arts centre with leafy gardens and on-site cafe, suitable to casual work, reading, or a creative reset."
     },
     {
         id: 9,
@@ -111,7 +111,7 @@ export const spots = [
     },
     {
         id: 11,
-        name: "StudyPerth Hub",
+        name: "StudyPerth Student Hub",
         suburb: "Perth",
         type: "Student Spaces",
         address: "555 Wellington Street, Perth WA 6000",
@@ -129,7 +129,7 @@ export const spots = [
         website: "https://perth.wa.gov.au/community/community-services-and-facilities/city-of-perth-library",
         tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
         bestFor: ["focused work", "study", "reading"],
-        notes: "A central library in Cathedral Square with study areas, bookable rooms, and Page7 Cafe on the ground floor."
+        notes: "A central multi-level library in Cathedral Square, known for its beautiful architecture, with cozy seating, private meeting/study rooms, outdoor terrace, and on-site cafe. Also features a dedicated young-adult area."
     },
     {
         id: 13,
@@ -151,7 +151,7 @@ export const spots = [
         website: "https://www.uwa.edu.au/facilities/reid-library",
         tags: ["free", "study spaces", "food and drink", "computers", "accessible"],
         bestFor: ["focused work", "study", "reading"],
-        notes: "A large campus library with 2,000+ study spaces, bookable rooms, a cafe, and visitor kiosk internet access (no general public Wi-Fi)."
+        notes: "A large campus library with 2,000+ study spaces, bookable rooms, a cafe, and visitor kiosk internet access (no general public Wi-Fi). Dedicated postgraduate study area, outdoor study spaces, and comfy lounge seating available."
     },
     {
         id: 15,
@@ -195,7 +195,7 @@ export const spots = [
         website: "https://www.fremantle.wa.gov.au/services-and-support/city-facilities/esplanade-park/",
         tags: ["free", "wi-fi", "accessible"],
         bestFor: ["casual work", "study", "reading"],
-        notes: "A harbourfront public park with shaded seating, toilets, and lots of open space. Good option for reading, offline work, and group discussion."
+        notes: "A harbourfront public park with shaded seating, toilets, and lots of open space. Good option for reading, offline work, and group discussion. Various food and drink options in the vicinity."
     },
     {
         id: 19,
@@ -217,7 +217,7 @@ export const spots = [
         website: "https://www.belmont.wa.gov.au/discover/places-to-go/ruth-faulkner-library-and-belmont-museum",
         tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
         bestFor: ["focused work", "study", "reading"],
-        notes: "A two-level library inside Belmont Hub, with study spaces, power points, bookable rooms, and 8 Yolks Cafe in the same community center."
+        notes: "A two-level library inside Belmont Hub, with study spaces, power points, bookable rooms, and cafe within the centre."
     },
     {
         id: 21,
