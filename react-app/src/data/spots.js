@@ -27,7 +27,7 @@ export const spots = [
         suburb: "Peppermint Grove",
         type: "Libraries",
         address: "1 Leake St, Peppermint Grove WA 6011",
-        website: "https://www.grovelibrary.net/",
+        website: "https://www.thegrovelibrary.net/",
         tags: ["free", "wi-fi", "study spaces", "food and drink", "computers", "accessible"],
         bestFor: ["focused work", "study", "reading"],
         notes: "A western suburbs community library shared by Peppermint Grove, Cottesloe, and Mosman Park, with spaces for reading, studying, meeting, and browsing."
