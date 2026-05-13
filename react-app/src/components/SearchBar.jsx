@@ -10,9 +10,9 @@ export default function SearchBar(props) {
             <div className="search-row">
                 <input 
                 type="search" 
-                aria-label="Search spots by name, suburb, type, or keywords"
+                aria-label="Search spots by name, suburb, type, or keyword"
                 className="search-input"
-                placeholder="Search by name, suburb, category, or keywords..."
+                placeholder="Search by name, suburb, category, or keyword..."
                 value={props.searchTerm}
                 onChange={props.handleSearch}
                 />
