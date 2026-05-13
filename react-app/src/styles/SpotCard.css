@@ -60,7 +60,7 @@
 }
 
 :is(.parks, .community-hubs, .cultural-centres, .student-spaces) .spot-type-header:hover {
-    background-color: rgba(0, 0, 0, 0.13);
+    background-color: rgba(0, 0, 0, 0.15);
 }
 
 .card-content {
@@ -122,7 +122,7 @@
 
 :is(.parks, .community-hubs, .cultural-centres, .student-spaces) .spot-tag {
     border: 1px solid rgba(0, 0, 0, 0.5);
-    background: rgba(0, 0, 0, 0.08)
+    background: rgba(0, 0, 0, 0.05);
 }
 
 .spot-tag:hover {
@@ -166,7 +166,7 @@
 }
 
 .parks .spot-link {
-    border-bottom: 0.05rem dashed rgba(0, 0, 0, 0.5);
+    border-bottom: 0.05rem solid rgba(0, 0, 0, 0.5);
 }
 
 .spot-link:hover {
