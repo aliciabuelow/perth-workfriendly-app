@@ -77,7 +77,7 @@ function App() {
         className="scroll-button"
         onClick={onScrollUp}
       >
-        <ArrowUp size={28} />
+        <ArrowUp size={28} color="#000" />
       </button>
       )}
 
